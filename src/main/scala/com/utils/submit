@@ -1,0 +1,6 @@
+bin/spark-submit \
+--master yarn \
+--executor-memory 1G \
+--num-executors 4 \
+--executor-cores 1 \
+--class com.SparkDemoMain /root/javajars/Template-1.0-SNAPSHOT.jar common.rkzt.readHiveTable
